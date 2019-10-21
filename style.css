@@ -1,0 +1,88 @@
+@media screen and (max-width: 780px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container-2 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .flex-container {
+    padding: 150px 20vw;
+  }
+  .flex-container-2 {
+    padding: 150px 20vw;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.flex-container {
+  padding: 150px 10vw;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container-2 {
+  padding: 20px 10vw;
+  display: flex;
+  justify-content: center;
+}
+
+.banner h1 {
+  padding: 0 2vw;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+  padding: 0 2vw;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 24px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+h3 {
+  padding: 0 2vw;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.banner p {
+  padding: 0 2vw;
+  font-size: 20px;
+  color: white;
+  opacity: .9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-family: 'Raleway', sans-serif;
+}
+
+.banner a {
+  color: aqua;
+}
+
+.banner a:hover {
+  color: white;
+}
+
+.contact {
+  color: aqua;
+}
