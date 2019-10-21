@@ -1,9 +1,8 @@
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 750px) {
   .flex-container {
-    flex-direction: column;
-  }
-  .flex-container-2 {
-    flex-direction: column;
+    width: 100vw;
+    padding: 80px 0;
+    /*justify-content: space-around;*/
   }
 }
 
@@ -11,18 +10,20 @@
   .flex-container {
     padding: 150px 20vw;
   }
-  .flex-container-2 {
-    padding: 150px 20vw;
-  }
 }
+
+@media screen and (min-width: 751px) {}
 
 body {
   margin: 0;
 }
 
 .banner {
-  background-size: cover;
-  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url(images/jj-jordan-jg4gpt8vfti-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #190A07;
   height: 100vh;
   overflow: scroll;
 }
@@ -30,31 +31,27 @@ body {
 .flex-container {
   padding: 150px 10vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-}
-
-.flex-container-2 {
-  padding: 20px 10vw;
-  display: flex;
-  justify-content: center;
+  width: 58vw;
 }
 
 .banner h1 {
-  padding: 0 2vw;
+  padding: 5px 2vw;
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 40px;
   font-family: 'Cinzel Decorative', cursive;
 }
 
 h2 {
-  padding: 0 2vw;
+  padding: 5px 2vw;
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 24px;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 h3 {
