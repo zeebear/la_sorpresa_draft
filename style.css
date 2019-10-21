@@ -7,6 +7,9 @@
 }
 
 @media screen and (min-width: 1080px) {
+  .banner {
+    background-position: right 10vw top 64px;
+  }
   .flex-container {
     padding: 150px 20vw;
   }
@@ -18,14 +21,33 @@ body {
   margin: 0;
 }
 
-.banner {
-  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url(images/jj-jordan-jg4gpt8vfti-unsplash.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
+.navbar {
+  position: sticky;
+  top: 0px;
   background-color: #190A07;
-  height: 100vh;
-  overflow: scroll;
+}
+
+.navbar ul {
+  display: flex;
+  padding: 20px 12vw;
+  list-style-type: none;
+  justify-content: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+.navbar li {
+  color: white;
+  margin: 0 4em 0 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #E0D589;
 }
 
 .flex-container {
@@ -36,7 +58,51 @@ body {
   width: 58vw;
 }
 
-.banner h1 {
+.flex-container a {
+  color: #E0D589;
+}
+
+.flex-container a:hover {
+  color: #E0D589;
+}
+
+.agenda-container {
+  padding: 10px 10vw;
+  flex-wrap: wrap;
+}
+
+.h2-agenda {
+  padding: 20px 2vw;
+}
+
+.flex-item {
+  border-bottom: dotted #FFF;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url(images/jj-jordan-jg4gpt8vfti-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 0 top 64px;
+  background-color: #190A07;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.banner p {
+  padding: 0 2vw;
+  font-size: 20px;
+  color: white;
+  opacity: .9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact {
+  color: #E0D589;
+}
+
+h1 {
   padding: 5px 2vw;
   margin: 0;
   color: white;
@@ -48,7 +114,7 @@ body {
 h2 {
   padding: 5px 2vw;
   margin: 0;
-  color: white;
+  color: #E0D589;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 24px;
   font-family: 'Raleway', sans-serif;
@@ -61,25 +127,4 @@ h3 {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 24px;
   font-family: 'Raleway', sans-serif;
-}
-
-.banner p {
-  padding: 0 2vw;
-  font-size: 20px;
-  color: white;
-  opacity: .9;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-family: 'Raleway', sans-serif;
-}
-
-.banner a {
-  color: aqua;
-}
-
-.banner a:hover {
-  color: white;
-}
-
-.contact {
-  color: aqua;
 }
