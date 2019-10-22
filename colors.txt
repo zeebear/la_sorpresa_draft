@@ -1,0 +1,7 @@
+Background color:
+Contrast color: #E0D589
+Another possible contrast: #D7D2F7
+Darker contrast: #8680AB
+Dark possible background: #706B8F
+Very pale yellow: #FAF5D4
+Base color for a color wheel: #373640
